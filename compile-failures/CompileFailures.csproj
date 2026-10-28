@@ -1,0 +1,18 @@
+<!-- NOT part of the solution. Building this project is EXPECTED to FAIL:
+     each file contains one wrong sequence from Task 1 written against the
+     new stage types. Run:  dotnet build compile-failures/CompileFailures.csproj -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../src/HandlingTemporalCoupling/Stages.cs" />
+    <Compile Include="../src/HandlingTemporalCoupling/CheckoutFlow.cs" />
+    <Compile Include="../src/HandlingTemporalCoupling/Gateways.cs" />
+  </ItemGroup>
+
+</Project>
